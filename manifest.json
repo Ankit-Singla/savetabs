@@ -1,0 +1,17 @@
+{
+  "name": "All Tab URLs",
+  "description": "Saves the URLs of all currently open tabs in the active window in a popup[except the URL of the active tab]",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "arrow_in.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
