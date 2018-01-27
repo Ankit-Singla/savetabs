@@ -1,1 +1,2 @@
-var urls = [];
+var urls = new Set();
+
