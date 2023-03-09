@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-width: 300px;
+    max-width: 500px;
+    margin: 20px 10px;
+}
+
+.heading {
+    font-size: 2em;
+    text-align: center;
+    width: inherit;
+    padding: 10px 20px;
+    background: #FC466B;
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B);
+    color: white
+}
+
+#container {
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    min-height: 100px;
+    overflow: hidden;
+    width: inherit;
+}
+
+#container p {
+    font-size: 1.3em;
+    background: #FC466B;
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B);
+    color: rgb(183, 218, 241);
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#container p a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+
+#additions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#additions #add_more {
+    padding: 10px 10px;
+    background: #FC466B;
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+#additions #add_more:hover {
+    box-shadow: 2px 2px 20px #fc466a6e;
+}
+
+#additions #add_this {
+    padding: 10px 10px;
+    background: #FC466B;
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+#additions #add_this:hover {
+    box-shadow: 2px 2px 20px #fc466a6e;
+}

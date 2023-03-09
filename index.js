@@ -1,5 +1,5 @@
 var cont = document.getElementById("container");
-document.getElementsByTagName("h3")[0].style.backgroundColor = "yellow";   // SYLING
+// document.getElementsByTagName("h3")[0].style.backgroundColor = "yellow";   // SYLING
 
 function remOnClick(textCon){
     chrome.extension.getBackgroundPage().urls.forEach(function(value){
